@@ -61,4 +61,5 @@ TODO: Add long description of the pod here.
   s.dependency 'MJRefresh'
   s.dependency 'MJExtension'
   s.dependency 'eCameraLib'
+  s.dependency 'WPAttributedMarkup'
 end
