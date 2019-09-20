@@ -47,7 +47,6 @@ TODO: Add long description of the pod here.
   s.dependency 'IQKeyboardManager'
   s.dependency 'NIMSDK'
   s.dependency 'Masonry'
-  s.dependency 'eCameraLib'
   s.dependency 'MJRefresh'
   s.dependency 'MJExtension'
   s.dependency 'eCameraLib'
