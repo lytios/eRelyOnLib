@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.ios.vendored_frameworks = 'eRelyOnLib/Classes/framework/MGFaceIDLiveDetect.framework','eRelyOnLib/Classes/framework/MGFaceIDBaseKit.framework'
-
+  s.source_files = 'eRelyOnLib/Classes/file/**/*'
   s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
     s.resource_bundles = {
    'MGFaceIDLiveCustomDetect.bundle' => ['eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle'],
