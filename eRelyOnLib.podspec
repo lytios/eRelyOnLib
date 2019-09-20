@@ -31,16 +31,20 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.ios.vendored_frameworks = 'eRelyOnLib/Classes/framework/MGFaceIDLiveDetect.framework','eRelyOnLib/Classes/framework/MGFaceIDBaseKit.framework'
-  s.source_files = 'eRelyOnLib/Classes/file/**/*'
+  
   s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
-    s.resource_bundles = {
+  s.resource_bundles = {
    'MGFaceIDLiveCustomDetect.bundle' => ['eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle'],
-   'BHFace_Resource.bundle' => ['eRelyOnLib/Assets/BHFace_Resource.bundle']
+   'BHFace_Resource.bundle' => ['eRelyOnLib/Assets/BHFace_Resource.bundle'],
   }
   s.libraries = 'c++'
   s.vendored_libraries = 'eRelyOnLib/Classes/framework/libBHFaceDetector.a'
   s.vendored_frameworks =  'SystemConfiguration.framework','CoreMotion.framework','AVFoundation.framework','CoreMedia.framework'
- s.xcconfig = {'OTHER_LDFLAGS'=>'$(inherited)-ObjC','ENABLE_BITCONDE'  =>'NO','HEADER_SEARCH_PATHS' => '${SDK_DIR}/usr/include/libc++' }
+  s.xcconfig = {'OTHER_LDFLAGS'=>'$(inherited)-ObjC','ENABLE_BITCONDE'  =>'NO','HEADER_SEARCH_PATHS' => '${SDK_DIR}/usr/include/libc++' }
+s.subspec 'Tool' do |t|
+  #s.source_files = 'eRelyOnLib/Classes/file/*'
+end
+  
   s.dependency 'AFNetworking'
   s.dependency 'SDWebImage'
   s.dependency 'MBProgressHUD'
