@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
   
   #s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
   s.resource_bundles = {
-   'MGFaceIDLiveCustomDetect.bundle' => ['eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle'],
-   'BHFace_Resource.bundle' => ['eRelyOnLib/Assets/BHFace_Resource.bundle'],
+   'MGFaceIDLiveCustomDetect' => ['eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle'],
+   'BHFace_Resource' => ['eRelyOnLib/Assets/BHFace_Resource.bundle'],
   }
   s.libraries = 'c++'
   #s.vendored_libraries = 'eRelyOnLib/Classes/framework/libBHFaceDetector.a'
