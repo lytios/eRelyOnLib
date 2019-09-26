@@ -33,10 +33,8 @@ TODO: Add long description of the pod here.
   s.ios.vendored_frameworks = 'eRelyOnLib/Classes/framework/MGFaceIDLiveDetect.framework','eRelyOnLib/Classes/framework/MGFaceIDBaseKit.framework'
   
   #s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
-  s.resource_bundles = {
-   'MGFaceIDLiveCustomDetect' => ['eRelyOnLib/Assets/MGFaceIDLiveCustomDetect.bundle'],
-   'BHFace_Resource' => ['eRelyOnLib/Assets/BHFace_Resource.bundle'],
-  }
+
+  s.resources = 'eRelyOnLib/Assets/*.*'
   s.libraries = 'c++'
   #s.vendored_libraries = 'eRelyOnLib/Classes/framework/libBHFaceDetector.a'
  # s.vendored_frameworks =  'SystemConfiguration.framework','CoreMotion.framework','AVFoundation.framework','CoreMedia.framework'
