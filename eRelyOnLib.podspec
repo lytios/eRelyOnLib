@@ -32,16 +32,10 @@ TODO: Add long description of the pod here.
 
   s.ios.vendored_frameworks = 'eRelyOnLib/Classes/framework/MGFaceIDLiveDetect.framework','eRelyOnLib/Classes/framework/MGFaceIDBaseKit.framework'
   
-  #s.vendored_framework = 'eHRFaceSDK/Classes/HRFaceSDK.framework'
-
   s.resources = 'eRelyOnLib/Assets/*.*'
   s.libraries = 'c++'
-  #s.vendored_libraries = 'eRelyOnLib/Classes/framework/libBHFaceDetector.a'
- # s.vendored_frameworks =  'SystemConfiguration.framework','CoreMotion.framework','AVFoundation.framework','CoreMedia.framework'
   s.xcconfig = {'OTHER_LDFLAGS'=>'$(inherited)-ObjC','ENABLE_BITCONDE'  =>'NO','HEADER_SEARCH_PATHS' => '${SDK_DIR}/usr/include/libc++' }
-s.subspec 'Tool' do |t|
-  #s.source_files = 'eRelyOnLib/Classes/file/*'
-end
+
   
   s.dependency 'AFNetworking'
   s.dependency 'SDWebImage'
