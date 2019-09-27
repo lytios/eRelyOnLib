@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eRelyOnLibFile'
-  s.version          = '0.1.0'
+  s.version          = '1.0.7'
   s.summary          = 'A short description of eRelyOnLibFile.'
 
 
