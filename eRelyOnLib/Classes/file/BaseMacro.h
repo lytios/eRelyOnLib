@@ -29,7 +29,7 @@
 #define iphone6_4_7 ([UIScreen mainScreen].bounds.size.height==667.0f)
 #define iphone6Plus_5_5 ([UIScreen mainScreen].bounds.size.height==736.0f || [UIScreen mainScreen].bounds.size.width==414.0f)
 #define iPhone_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define iPhone_XS (([[[UIApplication sharedApplication] delegate]window].safeAreaInsets.bottom >0.0)? YES : NO)
+#define iPhone_XS (@available(iOS 11.0, *) ? (([[[UIApplication sharedApplication] delegate]window].safeAreaInsets.bottom >0.0)? YES : NO) :NO)
 
 #define TabBarHeight 49
 #define TopBarHeight (iPhone_X?88:64)

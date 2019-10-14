@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'eRelyOnLib'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'A short description of eRelyOnLib.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '24290265@qq.com' => '24290265@qq.com' }
-  s.source           = { :git => 'https://github.com/lytios/eRelyOnLib.git', :tag => 'v1.0.7' }
+  s.source           = { :git => 'https://github.com/lytios/eRelyOnLib.git', :tag => 'v1.0.8' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   s.dependency 'NIMSDK'
   s.dependency 'Masonry'
   s.dependency 'MJRefresh'
-  s.dependency 'MJExtension'
+  s.dependency 'MJExtension' 
   s.dependency 'eCameraLib'
   s.dependency 'WPAttributedMarkup'
 end
