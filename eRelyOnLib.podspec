@@ -41,7 +41,6 @@ TODO: Add long description of the pod here.
   s.dependency 'SDWebImage'
   s.dependency 'MBProgressHUD'
   s.dependency 'IQKeyboardManager'
-  s.dependency 'NIMSDK'
   s.dependency 'Masonry'
   s.dependency 'MJRefresh'
   s.dependency 'MJExtension' 
